@@ -1,0 +1,142 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  background-color: #3c3c3c;
+  color: burlywood;
+}
+
+.nav-link {
+  color: burlywood;
+}
+
+nav img {
+  width: 70px;
+  height: 70px;
+}
+
+.home {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  background-image: url("img/bg1.jpeg");
+}
+.home h1 {
+  text-align: center;
+  color: burlywood;
+}
+
+.container__AboutMe {
+  padding: 4rem;
+  background-color: burlywood;
+  color: #3c3c3c;
+}
+.container__AboutMe h2 {
+  font-style: bold;
+  text-align: center;
+}
+.container__AboutMe__content {
+  display: flex;
+}
+.container__AboutMe__content h3 {
+  margin-left: 2rem;
+}
+.container__AboutMe__content h5 {
+  font-style: italic;
+}
+.container__AboutMe__content img {
+  margin: 1rem;
+  width: 350px;
+  height: 350px;
+  border-radius: 2rem;
+  border-color: cornsilk;
+  box-shadow: coral 5px 10px 15px;
+}
+.container__AboutMe__content ul {
+  list-style-type: circle;
+}
+.container__AboutMe__content__text {
+  padding-left: 3rem;
+  line-height: 1.5rem;
+}
+
+.Portfolio {
+  padding: 3rem;
+  background-color: #E5C69F;
+  color: #3c3c3c;
+}
+.Portfolio h2 {
+  text-align: center;
+}
+.Portfolio__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Works {
+  background-color: #E5C69F;
+  color: #3c3c3c;
+  padding: 3rem;
+}
+.Works h2 {
+  text-align: center;
+}
+.Works :hover {
+  opacity: 80%;
+}
+
+.Contact {
+  background-color: burlywood;
+  padding: 3rem;
+  color: #3c3c3c;
+}
+.Contact h2 {
+  text-align: center;
+}
+.Contact__content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Contact__content img {
+  width: 70px;
+  height: 70px;
+  margin: 2em;
+}
+.Contact__content img:hover {
+  width: 80px;
+  height: 80px;
+}
+
+.Contact-hidden {
+  display: none;
+  justify-content: center;
+}
+
+.Contact-hidden img {
+  width: 250px;
+  height: 300px;
+}
+
+footer {
+  background-color: #3c3c3c;
+  text-align: center;
+  color: burlywood;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
